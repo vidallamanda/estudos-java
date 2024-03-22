@@ -33,7 +33,7 @@ public class Colaborador {
     }
 
     public void setSalarioMensal(double salario_mensal) {
-        this.salario_mensal = salario_mensal;
+        this.salario_mensal = Math.max(salario_mensal, 0.0);
     }
 
     @Override
