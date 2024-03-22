@@ -35,7 +35,7 @@ public class Suprimentos {
     }
 
     public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
+        this.quantidade = Math.max(quantidade, 0);
     }
 
     public double getPrecoUnitario() {
@@ -43,7 +43,7 @@ public class Suprimentos {
     }
 
     public void setPrecoUnitario(double preco_unitario) {
-        this.preco_unitario = preco_unitario;
+        this.preco_unitario = Math.max(preco_unitario, 0.0);
     }
 
     public double getInvoiceAmount() {
