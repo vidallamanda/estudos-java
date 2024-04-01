@@ -1,0 +1,3 @@
+Informações do jogador vencedor: 
+Nome: amanda
+Quantidade de pontos: 2
